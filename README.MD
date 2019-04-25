@@ -9,3 +9,7 @@ This repo is built to track the status of the cars for the career conference.
 ## Cars
 - Serenity (Blue & Orange car)
 - Daedalus (Black car)
+
+## Resources
+1. [Getting Started](GettingStarted.MD)
+2. [Testing the car](Testing.MD)
