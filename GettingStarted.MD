@@ -16,7 +16,14 @@ Password: raspberry
 raspberry is also the default password and is not recommended. If the password is different, please refer to physical documentation with the cars*
 
 ## Changing/Viewing WiFi Settings
-The file for WiFi settings is located at
+
+General Raspberry PI settings including WiFi can be set up with
+
+```
+    sudo raspi-config
+```
+
+Raspi-config is the simple way. Connection settings can also be set using a file. The file for WiFi settings is located at
  /etc/wpa_supplicant/wpa_supplicant.conf
 
 To open up the file with a text editor:
@@ -37,3 +44,6 @@ To open up the file with a text editor:
         psk="<your password>"
     }
 ```
+
+## Enterprise Scenarios: Connecting to a HotSpot
+To connect the cars to WiFi in an enterprise setting (like CPTC) you can set up a tablet or Windows 10 machine up as a hotspot. **If the PI only communicates over 2.4 GHz you may need to adjust your WiFi adapter. The default is auto and will most likely default to 5GHz**
