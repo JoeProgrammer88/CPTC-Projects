@@ -1,4 +1,4 @@
-# Career Conference 2019 - DonkeyCar Project
+# Project List
 
 ## Projects
-[Donkey Car](DonkeyCar/README.MD)
+[Donkey Car](DonkeyCar/README.MD) - Spring 2019 Career Conference Project
